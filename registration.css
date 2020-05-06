@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Amiri';
+	background-image: url(images/philip-strong-vu4IwLFEuMs-unsplash.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.wrapper{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper_form{
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 10px;
+	width: 450px;
+}
+.wrapper_form a{
+	text-decoration: none;
+	transition: 0.3s;
+	color: black;
+}
+.wrapper_form a:hover{
+	color: red;
+}
+.wrapper_form ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.input{
+	display: block;
+	width: 100%;
+}
+.tab-form{
+	background-color: #FFF;
+	display: none;
+	padding: 30px 20px 20px;
+}
+.tab-form.active{
+	display: block;
+}
+label.tab{
+	color: #FFF;
+	width: 150px;
+	text-align: center;
+	font-weight: 600;
+	padding: 10px 15px;
+	display:  inline-block;
+	font-size: 20px;
+	border-radius: 6px 6px 0 0;
+	margin-bottom: -1px;
+	cursor: pointer;
+}
+label.tab.active{
+	background-color: #FFF;
+	color: #000000;
+}
+.input{
+	font-size: 16px;
+	border: 2px solid #000000;
+	padding: 12px 14px;
+	box-sizing: border-box;
+	margin-bottom: 22px;
+	outline: none;
+}
+a.button{
+	background-color: #000000;
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0;
+}
+.icons{
+	display: flex;
+	justify-content: space-around;
+	font-size: 24px;
+}
